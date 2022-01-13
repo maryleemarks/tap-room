@@ -11,7 +11,7 @@ function TapDetail(props){
       <p><em>{tap.flavor}</em></p>
       <p><em>{tap.price}</em></p>
       <p><em>{tap.pints}</em></p>
-      <button onClick={ props.onClickingEdit }>Update Tap</button>
+      <button onClick={ ()=> props.onClickingEdit }>Update Tap</button>
       <button onClick={()=> props.onClickingDelete(tap.id) }>Delete Tap</button>
       <button onClick={()=> props.onClickingSell(tap.id) }>Sell a Pint</button>
       <hr/>
