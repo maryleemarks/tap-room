@@ -8,17 +8,19 @@ function Tap(props){
         <h3>{props.name} - {props.brand}</h3>
         <p><em>{props.flavor}</em></p>
         <p><em>{props.price}</em></p>
+        <p><em>{props.pints}</em></p>
         <hr/>
       </div>
     </React.Fragment>
   );
 }
 
-Event.propTypes = {
+Tap.propTypes = {
   name: PropTypes.string,
   brand: PropTypes.string,
   flavor: PropTypes.string,
   price: PropTypes.number,
+  pints: PropTypes.number,
   id: PropTypes.string,
   whenEventClicked: PropTypes.func
 };
