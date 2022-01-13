@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function TapDetail(props){
-  const { tap, onClickingSell, onClickingDelete } = props;
+  const { tap } = props;
   
   return (
     <React.Fragment>

@@ -6,7 +6,7 @@ import ReusableForm from "./ReusableForm";
 function NewTapForm(props){
   
   function handleNewTapFormSubmission(tap) {
-    event.preventDefault();
+    tap.preventDefault();
     props.onNewTapCreation({name: tap.target.name.value, brand: tap.target.brand.value, flavor: tap.target.flavor.value, price: tap.target.price.value, pints: tap.target.pints.value, id: v4()});
   }
   
@@ -22,8 +22,8 @@ function NewTapForm(props){
 
 
 
-NewEventForm.propTypes = {
-  onNewEventCreation: PropTypes.func
+NewTapForm.propTypes = {
+  onNewTapCreation: PropTypes.func
 };
 
 export default NewTapForm;
