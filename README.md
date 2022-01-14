@@ -16,7 +16,7 @@
 This is an independet project for Epicodus to demonstrate new skills in React Fundamentals. This app allows tap room staff to create and view tap inventory. User can add tap inventory, see a list of all taps, click a tap and see detail of all tap info and edit tap info. When pints are sold, total amount in tap decrements by 1 pint.
 
 
-![tap-room](components/img/tap-room.jpg)
+![tap-room](/src/components/img/tap-room.jpg)
 
 ## Setup/Installation Requirements
 
