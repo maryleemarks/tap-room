@@ -33,6 +33,7 @@ class TapControl extends React.Component {
   }
 
   handleAddingNewTapToList = (newTap) => {
+    console.log("handleAddNew reached!");
     const newMainTapList = this.state.mainTapList.concat(newTap);
     this.setState({mainTapList: newMainTapList,
                   formVisibleOnPage: false });
@@ -52,7 +53,6 @@ class TapControl extends React.Component {
   }
 
   handleEditClick = () => {
-    console.log("handleEditClick reached!");
     this.setState({editing: true});
   }
 
