@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 function TapList(props){
   return (
     <React.Fragment>
+      <h1>Tap List</h1>
       <hr/>
       {props.tapList.map((tap) =>
         <Tap
