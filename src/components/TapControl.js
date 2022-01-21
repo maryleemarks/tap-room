@@ -33,7 +33,6 @@ class TapControl extends React.Component {
   }
 
   handleAddingNewTapToList = (newTap) => {
-    console.log("handleAddNew reached!");
     const newMainTapList = this.state.mainTapList.concat(newTap);
     this.setState({mainTapList: newMainTapList,
                   formVisibleOnPage: false });
